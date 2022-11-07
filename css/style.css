@@ -22,22 +22,13 @@ html, body {
   justify-content: space-around;
   align-items: center;
 }
-.header__menu span {
+.header__menu li span {
   margin-right: 24px;
   font-size: 20px;
   font-weight: 500;
   color: #fff;
   font-weight: 300;
   transition: 0.3s;
-}
-.header__menu span::before {
-  content: "";
-  position: relative;
-  top: 0;
-  left: 0;
-  background-color: #FFFFFF;
-  width: 30px;
-  height: 1px;
 }
 .header__menu img {
   transition: 0.3s;

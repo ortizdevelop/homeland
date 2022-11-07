@@ -35,22 +35,14 @@ html, body{
         justify-content: space-around;
         align-items: center;
 
-        span{
-            margin-right: 24px;
-            font-size: 20px;
-            font-weight: 500;
-            color: #fff;
-            font-weight: 300;
-            transition: 0.3s;
-
-            &::before{
-                content: '';
-                position: relative;
-                top: 0;
-                left: 0;
-                background-color: #FFFFFF;
-                width: 30px;
-                height: 1px;
+        li{
+            span{
+                margin-right: 24px;
+                font-size: 20px;
+                font-weight: 500;
+                color: #fff;
+                font-weight: 300;
+                transition: 0.3s;
             }
         }
 
