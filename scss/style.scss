@@ -1,2 +1,36 @@
 /*Обнуление*/
 @import url('/css/nullstyle.css');
+
+//* Импорт
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+//* Шаблоны
+$color1: #3D5DDB;
+$color2: #FFFFFF;
+$color3: #171717;
+$color4: #E8E8E8;
+$color5: #262161;
+
+html, body{
+    position: relative;
+    width: 1440px;
+    height: 5849px;
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+}
+
+//* Header
+.header {
+
+    &__body {
+    }
+
+    &__menu {
+    }
+
+    &__list {
+    }
+}
+
+
+//* Footer
