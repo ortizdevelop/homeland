@@ -23,9 +23,30 @@ html, body{
 .header {
 
     &__body {
+        width: 1865px;
+        background-color: $color1;
+        padding-bottom: 36px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);;
     }
 
     &__menu {
+        padding-top: 34px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        span{
+            margin-right: 24px;
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            font-weight: 300;
+            transition: 0.3s;
+        }
+
+        img{
+            transition: 0.3s;
+        }
     }
 
     &__list {
