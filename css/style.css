@@ -29,6 +29,12 @@ html, body {
   color: #fff;
   font-weight: 300;
   transition: 0.3s;
+  border-bottom: 1px solid #3D5DDB;
+}
+.header__menu li span:hover {
+  border-bottom: 1.5px solid #FFFFFF;
+  transition: 0.3s;
+  padding-bottom: 5px;
 }
 .header__menu img {
   transition: 0.3s;
