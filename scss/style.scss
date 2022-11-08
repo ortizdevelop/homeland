@@ -612,6 +612,136 @@ html, body{
 }
 
 //* Footer
+.footer {
+    width: 1865px;
+    margin-top: 220px;
+    margin-left: 150px;
+    padding-bottom: 100px;
+
+    &__body {
+        display: flex;
+    }
+
+    &__left {
+    }
+
+    &__title {
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 106%;
+        color: #171717;
+        margin-bottom: 24px;
+    }
+
+    &__copy {
+        font-size: 18px;
+        line-height: 168%;
+        color: #171717;
+        margin-bottom: 24px;
+    }
+
+    &__ortiz {
+        img{
+            width: 75px;
+            height: 75px;
+        }
+        
+        p{
+            display: inline;
+            position: relative;
+            top: 30px;
+            left: 15px;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 106%;
+            color: #171717;
+        }
+    }
+
+    &__right {
+    }
+
+    &__info {
+    }
+
+    &__columns {
+        margin-left: 254px;
+        width: 530px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list-title {
+        margin-bottom: 42px;
+    }
+
+    &__link {
+    }
+
+    &__list-service {
+        width: 81px;
+        height: 220px;
+        transition: 0.3s;
+
+        a{
+            span{
+                transition: 0.3s;
+                font-size: 20px;
+                color: #171717;
+                line-height: 39px;
+
+                &:hover{
+                    transition: 0.3s;
+                    font-size: 23px;
+                }
+            }
+        }
+    }   
+
+    &__list-contact {
+        width: 155px;
+        height: 208px;
+        transition: 0.3s;
+
+        span{
+            transition: 0.3s;
+            font-size: 16px;
+            color: #171717;
+            line-height: 39px;
+        }
+
+        a{
+            span{
+                &:hover{
+                    transition: 0.3s;
+                    font-size: 19px;
+                }
+            }
+        }
+        
+    }
+
+    &__list-social {
+        width: 90px;
+        height: 220px;
+        transition: 0.3s;
+
+        a{
+            span{
+                transition: 0.3s;
+                font-size: 20px;
+                color: #171717;
+                line-height: 39px;
+
+                &:hover{
+                    transition: 0.3s;
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+}
+
 
 // * Общие классы
 .buttons {
@@ -697,5 +827,17 @@ html, body{
                 color: $color2;
             }
         }
+    }
+}
+
+.footer__list{
+    display: inline-block;
+    align-items: center;
+    
+    p{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 106%;
+        color: #171717;
     }
 }

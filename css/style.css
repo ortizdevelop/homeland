@@ -408,6 +408,97 @@ html, body {
   color: #171717;
 }
 
+.footer {
+  width: 1865px;
+  margin-top: 220px;
+  margin-left: 150px;
+  padding-bottom: 100px;
+}
+.footer__body {
+  display: flex;
+}
+.footer__title {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 106%;
+  color: #171717;
+  margin-bottom: 24px;
+}
+.footer__copy {
+  font-size: 18px;
+  line-height: 168%;
+  color: #171717;
+  margin-bottom: 24px;
+}
+.footer__ortiz img {
+  width: 75px;
+  height: 75px;
+}
+.footer__ortiz p {
+  display: inline;
+  position: relative;
+  top: 30px;
+  left: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 106%;
+  color: #171717;
+}
+.footer__columns {
+  margin-left: 254px;
+  width: 530px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__list-title {
+  margin-bottom: 42px;
+}
+.footer__list-service {
+  width: 81px;
+  height: 220px;
+  transition: 0.3s;
+}
+.footer__list-service a span {
+  transition: 0.3s;
+  font-size: 20px;
+  color: #171717;
+  line-height: 39px;
+}
+.footer__list-service a span:hover {
+  transition: 0.3s;
+  font-size: 23px;
+}
+.footer__list-contact {
+  width: 155px;
+  height: 208px;
+  transition: 0.3s;
+}
+.footer__list-contact span {
+  transition: 0.3s;
+  font-size: 16px;
+  color: #171717;
+  line-height: 39px;
+}
+.footer__list-contact a span:hover {
+  transition: 0.3s;
+  font-size: 19px;
+}
+.footer__list-social {
+  width: 90px;
+  height: 220px;
+  transition: 0.3s;
+}
+.footer__list-social a span {
+  transition: 0.3s;
+  font-size: 20px;
+  color: #171717;
+  line-height: 39px;
+}
+.footer__list-social a span:hover {
+  transition: 0.3s;
+  font-size: 23px;
+}
+
 .buttons {
   transition: 0.3s;
   background: #171717;
@@ -508,4 +599,15 @@ html, body {
 .partners-input input:hover::placeholder {
   transition: 0.3s;
   color: #FFFFFF;
+}
+
+.footer__list {
+  display: inline-block;
+  align-items: center;
+}
+.footer__list p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 106%;
+  color: #171717;
 }
