@@ -522,38 +522,92 @@ html, body{
 
 //* Partners
 .partners {
+    margin-top: 120px;
 
     &__body {
+        display: flex;
     }
 
     &__left {
     }
 
     &__left-body {
+        width: 1097px;
+        height: 623px;
+        background: #F7F7F7;
     }
 
     &__left-title {
+        position: relative;
+        top: 120px;
+        left: 152px;
+        width: 557px;
+        height: 222px;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 106%;
+        color: #171717;
     }
 
     &__left-subtitle {
+        position: relative;
+        left: 152px;
+        top: 148px;
+        width: 518px;
+        height: 120px;
+        font-size: 18px;
+        line-height: 168%;
+        color: #171717;
     }
 
     &__right {
     }
 
     &__right-body {
+        position: relative;
+        top: 100px;
+        left: -255px;
+        width: 608px;
+        height: 673px;
+        background-color: $color1;
+    }
+
+    &__right-content{
+        padding-top: 65px;
+        padding-left: 58px;
     }
 
     &__right-name {
+        input{
+            padding-bottom: 12px;
+        }
     }
 
     &__right-email {
+        input{
+            padding-bottom: 12px;
+        }
     }
 
     &__right-message {
+        p{
+            margin-bottom: 132px;
+        }
     }
 
     &__right-button {
+        transition: 0.3s;
+        margin-top: 55px;
+
+        &:hover{
+            transition: 0.3s;
+            background-color: $color2;
+
+            span{
+                transition: 0.3s;
+                color: $color3;
+            }
+        }
     }
 }
 
@@ -607,4 +661,30 @@ html, body{
     font-size: 16px;
     line-height: 168%;
     color: #171717;
+}
+
+.partners-input{
+    p{
+        margin-bottom: 32px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 106%;
+        color: #fff;
+    }
+
+    input{
+        margin-bottom: 32px;
+        background-color: $color1;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        font-size: 18px;
+        line-height: 168%;
+        color: rgba(255, 255, 255, 0.8);
+        width: 508px;
+
+        &::placeholder{
+            font-size: 18px;
+            line-height: 168%;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
 }

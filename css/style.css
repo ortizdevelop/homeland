@@ -342,6 +342,72 @@ html, body {
 .clients__profile-pos {
   transform: translate(-147.5px, 30px);
 }
+.partners {
+  margin-top: 120px;
+}
+.partners__body {
+  display: flex;
+}
+.partners__left-body {
+  width: 1097px;
+  height: 623px;
+  background: #F7F7F7;
+}
+.partners__left-title {
+  position: relative;
+  top: 120px;
+  left: 152px;
+  width: 557px;
+  height: 222px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 106%;
+  color: #171717;
+}
+.partners__left-subtitle {
+  position: relative;
+  left: 152px;
+  top: 148px;
+  width: 518px;
+  height: 120px;
+  font-size: 18px;
+  line-height: 168%;
+  color: #171717;
+}
+.partners__right-body {
+  position: relative;
+  top: 100px;
+  left: -255px;
+  width: 608px;
+  height: 673px;
+  background-color: #3D5DDB;
+}
+.partners__right-content {
+  padding-top: 65px;
+  padding-left: 58px;
+}
+.partners__right-name input {
+  padding-bottom: 12px;
+}
+.partners__right-email input {
+  padding-bottom: 12px;
+}
+.partners__right-message p {
+  margin-bottom: 132px;
+}
+.partners__right-button {
+  transition: 0.3s;
+  margin-top: 55px;
+}
+.partners__right-button:hover {
+  transition: 0.3s;
+  background-color: #FFFFFF;
+}
+.partners__right-button:hover span {
+  transition: 0.3s;
+  color: #171717;
+}
+
 .buttons {
   transition: 0.3s;
   background: #171717;
@@ -387,4 +453,36 @@ html, body {
   font-size: 16px;
   line-height: 168%;
   color: #171717;
+}
+
+.partners-input p {
+  margin-bottom: 32px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 106%;
+  color: #fff;
+}
+.partners-input input {
+  margin-bottom: 32px;
+  background-color: #3D5DDB;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 18px;
+  line-height: 168%;
+  color: rgba(255, 255, 255, 0.8);
+  width: 508px;
+}
+.partners-input input::-moz-placeholder {
+  font-size: 18px;
+  line-height: 168%;
+  color: rgba(255, 255, 255, 0.8);
+}
+.partners-input input:-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 168%;
+  color: rgba(255, 255, 255, 0.8);
+}
+.partners-input input::placeholder {
+  font-size: 18px;
+  line-height: 168%;
+  color: rgba(255, 255, 255, 0.8);
 }
