@@ -115,6 +115,22 @@ html, body{
             line-height: 168%;
             color: #fff;
         }
+
+        &:hover{
+            transition: 0.3s;
+            background-color: $color2;
+            
+            span{
+                transition: 0.3s;
+                color: $color3;
+            }
+        }
+
+        &:active{
+            transition: 0.3s;
+            position: relative;
+            top: 2px;
+        }
     }
 
     &__image {
