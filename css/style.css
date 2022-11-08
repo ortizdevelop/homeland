@@ -463,6 +463,7 @@ html, body {
   color: #fff;
 }
 .partners-input input {
+  transition: 0.3s;
   margin-bottom: 32px;
   background-color: #3D5DDB;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -472,17 +473,39 @@ html, body {
   width: 508px;
 }
 .partners-input input::-moz-placeholder {
+  -moz-transition: 0.3s;
+  transition: 0.3s;
   font-size: 18px;
   line-height: 168%;
   color: rgba(255, 255, 255, 0.8);
 }
 .partners-input input:-ms-input-placeholder {
+  -ms-transition: 0.3s;
+  transition: 0.3s;
   font-size: 18px;
   line-height: 168%;
   color: rgba(255, 255, 255, 0.8);
 }
 .partners-input input::placeholder {
+  transition: 0.3s;
   font-size: 18px;
   line-height: 168%;
   color: rgba(255, 255, 255, 0.8);
+}
+.partners-input input:hover {
+  transition: 0.3s;
+}
+.partners-input input:hover::-moz-placeholder {
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  color: #FFFFFF;
+}
+.partners-input input:hover:-ms-input-placeholder {
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  color: #FFFFFF;
+}
+.partners-input input:hover::placeholder {
+  transition: 0.3s;
+  color: #FFFFFF;
 }

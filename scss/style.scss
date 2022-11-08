@@ -673,6 +673,7 @@ html, body{
     }
 
     input{
+        transition: 0.3s;
         margin-bottom: 32px;
         background-color: $color1;
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -682,9 +683,19 @@ html, body{
         width: 508px;
 
         &::placeholder{
+            transition: 0.3s;
             font-size: 18px;
             line-height: 168%;
             color: rgba(255, 255, 255, 0.8);
+        }
+
+        &:hover{
+            transition: 0.3s;
+
+            &::placeholder{
+                transition: 0.3s;
+                color: $color2;
+            }
         }
     }
 }
