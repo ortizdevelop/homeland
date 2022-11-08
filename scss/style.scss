@@ -43,10 +43,10 @@ html, body{
                 color: #fff;
                 font-weight: 300;
                 transition: 0.3s;
-                border-bottom: 1px solid $color1;
+                border-bottom: 2.5px solid $color1;
                 
                 &:hover{
-                    border-bottom: 1.5px solid $color2;
+                    border-bottom: 2.5px solid $color2;
                     transition: 0.3s;
                     padding-bottom: 5px;
                 }
@@ -55,6 +55,13 @@ html, body{
 
         img{
             transition: 0.3s;
+            border-bottom: 2.5px solid $color1;
+            padding-bottom: 5px;
+
+            &:hover{
+                border-bottom: 2.5px solid $color2;
+                transition: 0.3s;
+            }
         }
     }
 
