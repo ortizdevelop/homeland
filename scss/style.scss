@@ -224,50 +224,105 @@ html, body{
 
 //* Feature
 .feature {
+    margin-top: 110px;
 
     &__body {
+        margin-left: 150px;
     }
 
     &__title {
+        margin-left: 70px;
+        margin-bottom: 56px;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 106%;
+        color: #171717;
+        transition: 0.3s;
     }
 
     &__columns {
+        text-align: center;
+        width: 1500px;
+        display: flex;
+        justify-content: space-around;
+        transition: 0.3s;
+
+    }
+    
+    &__lists{
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s;
+    }
+
+    &__image {
+    }
+    
+    &__name {
+        text-align: left;
+        margin-top: 32px;
+        margin-bottom: 18px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 104%;
+        color: #171717;
+        transition: 0.3s;
+    }
+    
+    &__info {
+        text-align: left;
+        margin-bottom: 4px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 168%;
+        color: #171717;
+        transition: 0.3s;
+    }
+    
+    &__address {
+        text-align: left;
+        margin-bottom: 15px;
+        transition: 0.3s;
+
+        img{
+            transform: translateY(3.5px);
+        }
+
+        span{
+            font-size: 16px;
+            line-height: 168%;
+            color: #171717;
+        }
+    }
+    
+    &__price {
+        text-align: left;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 104%;
+        color: #3d5ddb;
+        transition: 0.3s;
+    }
+    
+    &__companies-list {
     }
 
     &__lists1 {
     }
 
-    &__lists {
-    }
-
     &__image1 {
-    }
-
-    &__image {
     }
 
     &__name1 {
     }
 
-    &__name {
-    }
-
     &__info1 {
-    }
-
-    &__info {
     }
 
     &__address1 {
     }
 
-    &__address {
-    }
-
     &__price1 {
-    }
-
-    &__price {
     }
 
     &__lists2 {
@@ -310,9 +365,6 @@ html, body{
     }
 
     &__companies-list1 {
-    }
-
-    &__companies-list {
     }
 
     &__companies-list2 {
