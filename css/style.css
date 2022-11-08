@@ -69,19 +69,7 @@ html, body {
   width: 393px;
 }
 .discover__button {
-  transition: 0.3s;
   margin-left: 150px;
-  background: #171717;
-  width: 162px;
-  height: 54px;
-  text-align: center;
-  padding-top: 10px;
-}
-.discover__button span {
-  transition: 0.3s;
-  font-size: 18px;
-  line-height: 168%;
-  color: #fff;
 }
 .discover__button:hover {
   transition: 0.3s;
@@ -91,11 +79,97 @@ html, body {
   transition: 0.3s;
   color: #171717;
 }
-.discover__button:active {
+.discover__image {
+  transform: translate(1100px, -750px);
+}
+
+.experience__body {
+  margin-left: 150px;
+}
+.experience__body-up {
+  display: flex;
+  margin-top: 173px;
+  margin-bottom: 130px;
+}
+.experience__body-up-right {
+  margin-top: 73px;
+  margin-left: 298px;
+}
+.experience__title {
+  margin-bottom: 35px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 106%;
+  color: #171717;
+}
+.experience__subtitle {
+  margin-bottom: 38px;
+  font-size: 18px;
+  line-height: 168%;
+  color: #171717;
+  width: 487px;
+}
+.experience__button:hover {
+  transition: 0.3s;
+  background-color: #3D5DDB;
+}
+.experience__video-body {
+  width: 1439px;
+  height: 827px;
+  background-color: rgba(23, 23, 23, 0.05);
+  background: url("/img/bg1.png") no-repeat;
+}
+.experience__video-button {
+  transition: 0.3s;
+  width: 165px;
+  height: 165px;
+  text-align: center;
+  transform: translate(654px, 345px);
+}
+.experience__video-button .arrowbg {
+  transition: 0.3s;
+}
+.experience__video-button .arrow {
+  transition: 0.3s;
+  transform: translate(5px, -105px);
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(202deg) brightness(103%) contrast(101%);
+}
+.experience__video-button:hover {
+  transition: 0.3s;
+}
+.experience__video-button:hover .arrowbg {
+  transition: 0.3s;
+  filter: invert(36%) sepia(94%) saturate(3347%) hue-rotate(220deg) brightness(88%) contrast(94%);
+}
+.experience__video-button:hover .arrow {
+  transition: 0.3s;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(117deg) brightness(104%) contrast(104%);
+}
+.experience__video-button:active .arrowbg {
+  transition: 0.3s;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(117deg) brightness(104%) contrast(104%);
+}
+.experience__video-button:active .arrow {
+  transition: 0.3s;
+  filter: none;
+}
+
+.buttons {
+  transition: 0.3s;
+  background: #171717;
+  width: 162px;
+  height: 54px;
+  text-align: center;
+  padding-top: 10px;
+}
+.buttons span {
+  transition: 0.3s;
+  font-size: 18px;
+  line-height: 168%;
+  color: #fff;
+}
+.buttons:active {
   transition: 0.3s;
   position: relative;
   top: 2px;
-}
-.discover__image {
-  transform: translate(1100px, -750px);
 }
