@@ -32,10 +32,12 @@ html, body{
     }
 
     &__menu {
+        position: relative;
         padding-top: 34px;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        z-index: 100;
 
         li{
             span{
@@ -253,9 +255,26 @@ html, body{
         display: flex;
         flex-direction: column;
         transition: 0.3s;
+
+        &:hover{
+            transition: 0.3s;
+
+            .feature__image{
+                &:nth-child(1){
+                    transition: 0.3s;
+                    transform: scale(1.1);
+                }
+            }
+
+            .feature__name{
+                transition: 0.3s;
+                transform: scale(1.1);
+            }
+        }
     }
 
     &__image {
+        transition: 0.3s;
     }
     
     &__name {
@@ -283,15 +302,22 @@ html, body{
         text-align: left;
         margin-bottom: 15px;
         transition: 0.3s;
+        width: 356.63px;
 
         img{
             transform: translateY(3.5px);
+            transition: 0.3s;
         }
 
         span{
             font-size: 16px;
             line-height: 168%;
             color: #171717;
+        }
+
+        &:hover{
+            transition: 0.3s;
+            transform: scale(1.1);
         }
     }
     
@@ -302,6 +328,17 @@ html, body{
         line-height: 104%;
         color: #3d5ddb;
         transition: 0.3s;
+        border: 1px solid $color2;
+
+        &:hover{
+            transition: 0.3s;
+            transform: scale(1.1);
+            background-color: $color1;
+
+            span{
+                color: $color2;
+            }
+        }
     }
 
     &__companies {
@@ -334,6 +371,9 @@ html, body{
     }
 
     &__price1 {
+        width: 135px;
+        height: 30px;
+        border-radius: 5px;
     }
 
     &__lists2 {
@@ -352,6 +392,9 @@ html, body{
     }
 
     &__price2 {
+        width: 135px;
+        height: 30px;
+        border-radius: 5px;
     }
 
     &__lists3 {
@@ -370,6 +413,9 @@ html, body{
     }
 
     &__price3 {
+        width: 135px;
+        height: 30px;
+        border-radius: 5px;
     }
 
     &__companies-list1 {
