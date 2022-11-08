@@ -430,9 +430,13 @@ html, body {
   color: #171717;
   margin-bottom: 24px;
 }
+.footer__ortiz {
+  transition: 0.3s;
+}
 .footer__ortiz img {
   width: 75px;
   height: 75px;
+  transition: 0.3s;
 }
 .footer__ortiz p {
   display: inline;
@@ -443,6 +447,11 @@ html, body {
   font-weight: 700;
   line-height: 106%;
   color: #171717;
+  transition: 0.3s;
+}
+.footer__ortiz:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
 }
 .footer__columns {
   margin-left: 254px;
