@@ -102,6 +102,16 @@ html, body{
     
     &__button{
         margin-left: 150px;
+
+        &:hover{
+            transition: 0.3s;
+            background-color: $color2;
+            
+            span{
+                transition: 0.3s;
+                color: $color3;
+            }
+        }
     }
 
     &__image {
@@ -113,37 +123,102 @@ html, body{
 .experience {
 
     &__body {
+        margin-left: 150px;
     }
 
     &__body-up {
         display: flex;
+        margin-top: 173px;
+        margin-bottom: 130px;
+    }
+
+    &__body-up-left{
+    }
+
+    &__body-up-right{
+        margin-top: 73px;
+        margin-left: 298px;
     }
 
     &__avatar {
     }
 
     &__title {
+        margin-bottom: 35px;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 106%;
+        color: #171717;
     }
 
     &__subtitle {
+        margin-bottom: 38px;
+        font-size: 18px;
+        line-height: 168%;
+        color: #171717;
+        width: 487px;
     }
 
     &__button {
+
+        &:hover{
+            transition: 0.3s;
+            background-color: $color1;
+        }
     }
 
     &__video {
     }
 
     &__video-body {
+        width: 1439px;
+        height: 827px;
+        background-color: rgba(23, 23, 23, 0.05);
+        background: url('/img/bg1.png') no-repeat;
     }
 
     &__video-button {
-    }
+        transition: 0.3s;
+        width: 165px;
+        height: 165px;
+        text-align: center;
+        transform: translate(654px,345px);
 
-    .arrowbg {
-    }
+        .arrowbg {
+            transition: 0.3s;
+        }
     
-    .arrow {
+        .arrow {
+            transition: 0.3s;
+            transform: translate(5px,-105px);
+            filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(202deg) brightness(103%) contrast(101%);
+        }
+
+        &:hover{
+            transition: 0.3s;
+
+            .arrowbg{
+                transition: 0.3s;
+                filter: invert(36%) sepia(94%) saturate(3347%) hue-rotate(220deg) brightness(88%) contrast(94%);
+            }
+
+            .arrow{
+                transition: 0.3s;
+                filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(117deg) brightness(104%) contrast(104%);
+            }
+        }
+
+        &:active{
+            .arrowbg{
+                transition: 0.3s;
+                filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(117deg) brightness(104%) contrast(104%);
+            }
+
+            .arrow{
+                transition: 0.3s;
+                filter: none;
+            }
+        }
     }    
 }
 
@@ -164,16 +239,6 @@ html, body{
         font-size: 18px;
         line-height: 168%;
         color: #fff;
-    }
-
-    &:hover{
-        transition: 0.3s;
-        background-color: $color2;
-        
-        span{
-            transition: 0.3s;
-            color: $color3;
-        }
     }
 
     &:active{
