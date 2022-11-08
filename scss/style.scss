@@ -434,6 +434,95 @@ html, body{
     }
 }
 
+//* Clients
+.clients {
+    margin-top: 189.55px;
+    margin-bottom: 120px;
+
+    &__body {
+        margin-left: 150px;
+    }
+
+    &__up {
+        display: flex;
+    }
+
+    &__up-title {
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 106%;
+        color: #171717;
+        margin-bottom: 100px;
+    }
+
+    &__up-arrows {
+        margin-left: 234px;
+        margin-bottom: 109px;
+
+        img{
+            margin-right: 30px;
+            transition: 0.3s;
+
+            &:hover{
+                transition: 0.3s;
+                transform: scale(0.8);
+                opacity: 50%;
+            }
+        }
+    }
+
+    &__bot {
+        display: flex;
+    }
+
+    &__kemal {
+        margin-right: 29px;
+    }
+
+    &__dots {
+        margin-bottom: 32px;
+    }
+
+    &__title {
+        margin-bottom: 32px;
+        width: 557px;
+    }
+
+    &__subtitle {
+        margin-bottom: 38px;
+    }
+
+    &__profile {
+        display: flex;
+        width: 350px;
+        transition: 0.3s;
+        
+        &:hover{
+            transition: 0.3s;
+            transform: scale(1.1);
+        }
+    }
+
+    &__profile-pic {
+        width: 70px;
+        height: 70px;
+    }
+
+    &__profile-name {
+        margin-left: 18px;
+    }
+
+    &__profile-pos {
+        transform: translate(-147.5px,30px);
+    }
+
+    &__steve {
+    }
+}
+
+
+
+
 //* Footer
 
 // * Общие классы
@@ -457,4 +546,31 @@ html, body{
         position: relative;
         top: 2px;
     }
+}
+
+.clients-title{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 106%;
+    color: #171717;
+}
+
+.clients-subtitle{
+    font-size: 18px;
+    line-height: 168%;
+    color: #171717;
+    width: 491px;
+}
+
+.clients-name{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 106%;
+    color: #171717;
+}
+
+.clients-pos{
+    font-size: 16px;
+    line-height: 168%;
+    color: #171717;
 }

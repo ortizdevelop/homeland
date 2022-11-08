@@ -277,6 +277,71 @@ html, body {
   height: 30px;
   border-radius: 5px;
 }
+.clients {
+  margin-top: 189.55px;
+  margin-bottom: 120px;
+}
+.clients__body {
+  margin-left: 150px;
+}
+.clients__up {
+  display: flex;
+}
+.clients__up-title {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 106%;
+  color: #171717;
+  margin-bottom: 100px;
+}
+.clients__up-arrows {
+  margin-left: 234px;
+  margin-bottom: 109px;
+}
+.clients__up-arrows img {
+  margin-right: 30px;
+  transition: 0.3s;
+}
+.clients__up-arrows img:hover {
+  transition: 0.3s;
+  transform: scale(0.8);
+  opacity: 50%;
+}
+.clients__bot {
+  display: flex;
+}
+.clients__kemal {
+  margin-right: 29px;
+}
+.clients__dots {
+  margin-bottom: 32px;
+}
+.clients__title {
+  margin-bottom: 32px;
+  width: 557px;
+}
+.clients__subtitle {
+  margin-bottom: 38px;
+}
+.clients__profile {
+  display: flex;
+  width: 350px;
+  transition: 0.3s;
+}
+.clients__profile:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.clients__profile-pic {
+  width: 70px;
+  height: 70px;
+}
+.clients__profile-name {
+  margin-left: 18px;
+}
+.clients__profile-pos {
+  transform: translate(-147.5px, 30px);
+}
 .buttons {
   transition: 0.3s;
   background: #171717;
@@ -295,4 +360,31 @@ html, body {
   transition: 0.3s;
   position: relative;
   top: 2px;
+}
+
+.clients-title {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 106%;
+  color: #171717;
+}
+
+.clients-subtitle {
+  font-size: 18px;
+  line-height: 168%;
+  color: #171717;
+  width: 491px;
+}
+
+.clients-name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 106%;
+  color: #171717;
+}
+
+.clients-pos {
+  font-size: 16px;
+  line-height: 168%;
+  color: #171717;
 }
