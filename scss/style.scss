@@ -99,6 +99,10 @@ html, body{
         color: #fff;
         width: 393px;
     }
+    
+    &__button{
+        margin-left: 150px;
+    }
 
     &__image {
         transform: translate(1100px,-750px);
@@ -112,6 +116,7 @@ html, body{
     }
 
     &__body-up {
+        display: flex;
     }
 
     &__avatar {
@@ -134,6 +139,12 @@ html, body{
 
     &__video-button {
     }
+
+    .arrowbg {
+    }
+    
+    .arrow {
+    }    
 }
 
 
@@ -142,7 +153,6 @@ html, body{
 // * Общие классы
 .buttons {
     transition: 0.3s;
-    margin-left: 150px;
     background: $color3;
     width: 162px;
     height: 54px;

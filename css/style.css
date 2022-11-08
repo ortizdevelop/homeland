@@ -68,13 +68,18 @@ html, body {
   color: #fff;
   width: 393px;
 }
+.discover__button {
+  margin-left: 150px;
+}
 .discover__image {
   transform: translate(1100px, -750px);
 }
 
+.experience__body-up {
+  display: flex;
+}
 .buttons {
   transition: 0.3s;
-  margin-left: 150px;
   background: #171717;
   width: 162px;
   height: 54px;
