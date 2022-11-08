@@ -17,10 +17,12 @@ html, body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .header__menu {
+  position: relative;
   padding-top: 34px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 100;
 }
 .header__menu li span {
   margin-right: 24px;
@@ -154,6 +156,127 @@ html, body {
   filter: none;
 }
 
+.feature {
+  margin-top: 110px;
+}
+.feature__body {
+  margin-left: 150px;
+}
+.feature__title {
+  margin-left: 70px;
+  margin-bottom: 56px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 106%;
+  color: #171717;
+  transition: 0.3s;
+}
+.feature__columns {
+  text-align: center;
+  width: 1500px;
+  display: flex;
+  justify-content: space-around;
+  transition: 0.3s;
+}
+.feature__lists {
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+}
+.feature__lists:hover {
+  transition: 0.3s;
+}
+.feature__lists:hover .feature__image:nth-child(1) {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.feature__lists:hover .feature__name {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.feature__image {
+  transition: 0.3s;
+}
+.feature__name {
+  text-align: left;
+  margin-top: 32px;
+  margin-bottom: 18px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 104%;
+  color: #171717;
+  transition: 0.3s;
+}
+.feature__info {
+  text-align: left;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 168%;
+  color: #171717;
+  transition: 0.3s;
+}
+.feature__address {
+  text-align: left;
+  margin-bottom: 15px;
+  transition: 0.3s;
+  width: 356.63px;
+}
+.feature__address img {
+  transform: translateY(3.5px);
+  transition: 0.3s;
+}
+.feature__address span {
+  font-size: 16px;
+  line-height: 168%;
+  color: #171717;
+}
+.feature__address:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.feature__price {
+  text-align: left;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 104%;
+  color: #3d5ddb;
+  transition: 0.3s;
+  border: 1px solid #FFFFFF;
+}
+.feature__price:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  background-color: #3D5DDB;
+}
+.feature__price:hover span {
+  color: #FFFFFF;
+}
+.feature__companies {
+  margin-top: 120px;
+  margin-bottom: 189.55px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 70px;
+  width: 1300px;
+}
+.feature__price1 {
+  width: 135px;
+  height: 30px;
+  border-radius: 5px;
+}
+.feature__price2 {
+  width: 135px;
+  height: 30px;
+  border-radius: 5px;
+}
+.feature__price3 {
+  width: 135px;
+  height: 30px;
+  border-radius: 5px;
+}
 .buttons {
   transition: 0.3s;
   background: #171717;
