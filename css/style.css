@@ -68,7 +68,11 @@ html, body {
   color: #fff;
   width: 393px;
 }
-.discover__button {
+.discover__image {
+  transform: translate(1100px, -750px);
+}
+
+.buttons {
   transition: 0.3s;
   margin-left: 150px;
   background: #171717;
@@ -77,25 +81,22 @@ html, body {
   text-align: center;
   padding-top: 10px;
 }
-.discover__button span {
+.buttons span {
   transition: 0.3s;
   font-size: 18px;
   line-height: 168%;
   color: #fff;
 }
-.discover__button:hover {
+.buttons:hover {
   transition: 0.3s;
   background-color: #FFFFFF;
 }
-.discover__button:hover span {
+.buttons:hover span {
   transition: 0.3s;
   color: #171717;
 }
-.discover__button:active {
+.buttons:active {
   transition: 0.3s;
   position: relative;
   top: 2px;
-}
-.discover__image {
-  transform: translate(1100px, -750px);
 }

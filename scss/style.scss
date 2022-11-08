@@ -100,42 +100,46 @@ html, body{
         width: 393px;
     }
 
-    &__button {
-        transition: 0.3s;
-        margin-left: 150px;
-        background: $color3;
-        width: 162px;
-        height: 54px;
-        text-align: center;
-        padding-top: 10px;
-
-        span{
-            transition: 0.3s;
-            font-size: 18px;
-            line-height: 168%;
-            color: #fff;
-        }
-
-        &:hover{
-            transition: 0.3s;
-            background-color: $color2;
-            
-            span{
-                transition: 0.3s;
-                color: $color3;
-            }
-        }
-
-        &:active{
-            transition: 0.3s;
-            position: relative;
-            top: 2px;
-        }
-    }
-
     &__image {
         transform: translate(1100px,-750px);
     }
 }
 
+//* Experience
+
+
 //* Footer
+
+// * Общие классы
+.buttons {
+    transition: 0.3s;
+    margin-left: 150px;
+    background: $color3;
+    width: 162px;
+    height: 54px;
+    text-align: center;
+    padding-top: 10px;
+
+    span{
+        transition: 0.3s;
+        font-size: 18px;
+        line-height: 168%;
+        color: #fff;
+    }
+
+    &:hover{
+        transition: 0.3s;
+        background-color: $color2;
+        
+        span{
+            transition: 0.3s;
+            color: $color3;
+        }
+    }
+
+    &:active{
+        transition: 0.3s;
+        position: relative;
+        top: 2px;
+    }
+}
