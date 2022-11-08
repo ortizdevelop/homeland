@@ -45,3 +45,44 @@ html, body {
   border-bottom: 2.5px solid #FFFFFF;
   transition: 0.3s;
 }
+.discover {
+  width: 1865px;
+  background-color: #3D5DDB;
+  color: #FFFFFF;
+  height: 849px;
+}
+.discover__title {
+  padding-top: 122px;
+  margin-left: 150px;
+  margin-bottom: 42px;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 104%;
+  color: #fff;
+}
+.discover__subtitle {
+  margin-left: 150px;
+  margin-bottom: 42px;
+  font-size: 18px;
+  line-height: 168%;
+  color: #fff;
+  width: 393px;
+}
+.discover__button {
+  transition: 0.3s;
+  margin-left: 150px;
+  background: #171717;
+  width: 162px;
+  height: 54px;
+  text-align: center;
+  padding-top: 10px;
+}
+.discover__button span {
+  transition: 0.3s;
+  font-size: 18px;
+  line-height: 168%;
+  color: #fff;
+}
+.discover__image {
+  transform: translate(1100px, -750px);
+}

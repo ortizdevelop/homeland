@@ -11,6 +11,8 @@ $color3: #171717;
 $color4: #E8E8E8;
 $color5: #262161;
 
+$bd1: 1px solid red;
+
 html, body{
     position: relative;
     width: 1440px;
@@ -71,20 +73,52 @@ html, body{
 
 //* Discover
 .discover {
+    width: 1865px;
+    background-color: $color1;
+    color: $color2;
+    height: 849px;
 
     &__body {
     }
 
     &__title {
+        padding-top: 122px;
+        margin-left: 150px;
+        margin-bottom: 42px;
+        font-size: 85px;
+        font-weight: 700;
+        line-height: 104%;
+        color: #fff;
     }
 
     &__subtitle {
+        margin-left: 150px;
+        margin-bottom: 42px;
+        font-size: 18px;
+        line-height: 168%;
+        color: #fff;
+        width: 393px;
     }
 
     &__button {
+        transition: 0.3s;
+        margin-left: 150px;
+        background: $color3;
+        width: 162px;
+        height: 54px;
+        text-align: center;
+        padding-top: 10px;
+
+        span{
+            transition: 0.3s;
+            font-size: 18px;
+            line-height: 168%;
+            color: #fff;
+        }
     }
 
     &__image {
+        transform: translate(1100px,-750px);
     }
 }
 
