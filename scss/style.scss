@@ -303,6 +303,17 @@ html, body{
         color: #3d5ddb;
         transition: 0.3s;
     }
+
+    &__companies {
+        margin-top: 120px;
+        margin-bottom: 189.55px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 70px;
+        width: 1300px;
+    }
     
     &__companies-list {
     }
@@ -359,9 +370,6 @@ html, body{
     }
 
     &__price3 {
-    }
-
-    &__companies {
     }
 
     &__companies-list1 {
